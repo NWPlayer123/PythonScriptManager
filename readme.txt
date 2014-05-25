@@ -6,7 +6,7 @@ TypeScript can be a Script or Command.
 If Python Script:
 TypeScript | PyVersion | ScriptName | ScriptPath
 If Command/List of Scripts:
-TypeScript | NumScripts | (TypeScript | PyVersion | InstallPath | ScriptPath) #times NumScripts, indented to same place for each consecutive line
+TypeScript | Name | NumScripts | Commands | (PyVersion | ScriptName | ScriptPath | Commands) #times NumScripts, indented to same place for each consecutive line
 
 Command Line Syntax:
 pypkg <type> <script/command> <arguments>
